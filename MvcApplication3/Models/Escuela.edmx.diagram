@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f0332384a40c4bd4b194d9bd27fc827c" Name="Diagram1">
+        <EntityTypeShape EntityType="bd_escuelaModel.cargo" Width="2.875" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd_escuelaModel.usuario" Width="3.375" PointX="2.75" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="bd_escuelaModel.FK__usuario__car_cod__1273C1CD" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
