@@ -24,7 +24,11 @@ namespace MvcApplication3.Controllers
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
-            return View();
+            //GIT: Modifico
+			//GIT: Modifico
+			//GIT: Modifico
+			//GIT: Modifico
+			return View();
         }
 
         //
@@ -68,7 +72,16 @@ namespace MvcApplication3.Controllers
 
         //
         // POST: /Account/Register
-
+		
+		/*
+		GIT: AGREGO ENTRE MEDIAS
+		public void SaludaJavi()
+		{
+			MessageBox.Show("Hey, Javi. Hola!!");
+		}
+		
+		
+		*/
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -403,5 +416,15 @@ namespace MvcApplication3.Controllers
             }
         }
         #endregion
+		
+				/*
+		GIT: AGREGO AL FINAL
+		public void SaludaJavi2()
+		{
+			MessageBox.Show("Hey, Javi. Hola otra vez!!");
+		}
+		
+		
+		*/
     }
 }
